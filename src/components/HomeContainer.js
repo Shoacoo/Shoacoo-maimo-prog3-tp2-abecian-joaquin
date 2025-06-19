@@ -28,7 +28,7 @@ export const HomeContainer = () => {
         }
 
         getMovies();
-    },[])
+    },[API_URL])
 
 
   return (
